@@ -2,4 +2,5 @@
 .subjects
   list of subjects:
   - subject_items.each do |subject_item|
-    .subject-item
+    .subject_item
+      =render partial: 'reports/subject_item', object: subject_item
